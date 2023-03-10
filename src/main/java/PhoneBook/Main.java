@@ -28,11 +28,7 @@ public class Main {
                 phoneBook.setContact(renekay);
                     phoneBook.setContact(chioma);
 
-//        PhoneBook contact = new PhoneBook(samuelShola);
-//        PhoneBook contact1 = new PhoneBook(smile);
-//        PhoneBook contact2 = new PhoneBook(chioma);
-//        PhoneBook contact3 = new PhoneBook(renekay);
-//
+
         String answer;
 
 
@@ -57,17 +53,16 @@ public class Main {
                         print("enter contact name \n");
                              String name = input();
                                  System.out.println();
-                             print("enter your address street name \n");
-                                String streetName = input();
-                                    System.out.println();
-                                        print("enter phone number \n");
-                                            String phoneNumber = input();
-                                                System.out.println();
-                                                    print("enter email address \n");
-                                                        String emailAddress = input();
-                                                                System.out.println();
-//            print("enter contact  id\n");
-//            int contactId = inputInt();
+                         print("enter your address street name \n");
+                            String streetName = input();
+                                System.out.println();
+                        print("enter phone number \n");
+                            String phoneNumber = input();
+                                System.out.println();
+                        print("enter email address \n");
+                            String emailAddress = input();
+                                System.out.println();
+
 
                         phoneBook.createContact(name, streetName, phoneNumber, emailAddress);
 
